@@ -1,7 +1,10 @@
 env
-
 venv
+data
+
+**/settings/local*.py
 requirements/local.txt
 .vscode
 *.pyc
-data/*
+**/.DS_Store
+
