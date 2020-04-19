@@ -5,59 +5,44 @@
     <title></title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="{% static 'mdb/css/all.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
     <!-- Bootstrap core CSS -->
-    <link href="{% static 'mdb/css/bootstrap.min.css' %}" rel="stylesheet">
-    <!-- Material Design Bootstrap -->
-    <link href="{% static 'mdb/css/mdb.min.css' %}" rel="stylesheet">
-    <!-- Your custom styles (optional) -->
-    <link href="{% static 'mdb/css/style.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/track/css/bootstrap.css' %}" rel="stylesheet">
+    
+
+    <!-- Theme Custom styles (optional) -->
+    <link href="{% static 'assets/track/css/font-awesome.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/track/css/custom-styles.css' %}" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
     <link href="{% static 'css/style.css' %}" rel="stylesheet">
 
+
+
 </head>
-<body class="grey lighten-3">
-    <header>
+<body>
+<div id="wrapper">
 
-        <!-- Navbar -->
-        {% include 'partials/header2.html' %}
-        <!-- Navbar -->
+    {% include "partials/topnav.html" %}
+    {% include "partials/sidebar.html" %}
+    {% include "partials/page-content.html" %}
 
-        <!-- Sidebar -->
-        {% include 'partials/sidebar.html' %}
-        <!-- Sidebar -->
+</div>
 
-    </header>
 
-    <!--Main layout-->
-    <main class="pt-5 mx-lg-5">
-
-    </main>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script type="text/javascript" src="{% static 'mdb/js/jquery.min.js' %}"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="{% static 'mdb/js/popper.min.js' %}"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="{% static 'mdb/js/bootstrap.min.js' %}"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="{% static 'mdb/js/mdb.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'assets/track/js/bootstrap.min.js' %}"></script>
 
-    <script type="text/javascript" src="{% static 'mdb/js/modules/wow.js' %}"></script>
+    <!-- Metis Menu Js -->
+    <script src="{% static 'assets/track/js/jquery.metisMenu.js' %}"></script>
+    <!-- Custom Js -->
+    <script src="{% static 'assets/track/js/custom-scripts.js' %}"></script>
 
-    <!-- Your custom scripts (optional) -->
     <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
-
-    <!--Initializations -->
-    <script type="text/javascript">
-        // Animations initialization
-        new WOW().init();
-
-    </script>
 
 
 </body>
