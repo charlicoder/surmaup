@@ -1,10 +1,12 @@
 env*
 venv
 data
-
-**/settings/local*.py
+.env
+surmaup/settings/local.py
+surmaup/settings/.env
 requirements/local.txt
 .vscode
 *.pyc
 **/.DS_Store
+**/__pycache__
 

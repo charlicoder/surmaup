@@ -6,3 +6,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', TemplateView.as_view(template_name="base.html"), name="home"),
 ]
+
+# urlpatterns += i18n_patterns(
+#     url(r’^{}/’.format(settings.DJANGO_ADMIN_URL), admin.site.urls),
+# )
