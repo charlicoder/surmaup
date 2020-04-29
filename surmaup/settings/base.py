@@ -1,7 +1,8 @@
 import os
 from django.utils.translation import ugettext_lazy as _
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_DIR = os.path.dirname(os.path.dirname(
+    os.path.dirname(os.path.abspath(__file__))))
 
 
 # Quick-start development settings - unsuitable for production
@@ -59,17 +60,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'surmaup.wsgi.application'
-
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "surmaup_db",
-        "USER": "postgres",
-        "PASSWORD": "Mamun123",
-        "HOST": "localhost",
-        "PORT": "5432",
-    }
-}
 
 
 # Password validation
