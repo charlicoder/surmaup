@@ -7,7 +7,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "charlicoder",
+        "NAME": "surmaup_db",
         "USER": "postgres",
         "PASSWORD": "Mamun123",
         "HOST": "localhost",
