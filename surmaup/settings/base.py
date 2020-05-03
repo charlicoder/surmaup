@@ -19,12 +19,17 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
+    'lgd.apps.LgdConfig',
+    # 'citizen.apps.CitizenConfig',
+
+
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
@@ -94,16 +99,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
 
-LANGUAGES = [
-    ('en', 'English'),
-    ('bn', 'Bengli'),
-]
-
-LANGUAGE_CODE = 'en'
-
-LOCALE_PATHS = (
-    os.path.join(BASE_DIR, 'locale'),
-)
+LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
 
