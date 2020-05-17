@@ -1,6 +1,7 @@
 from django.db import models
 from django.db.models import Max
 from random import randint
+from django.utils.translation import gettext_lazy as _
 
 # Create your models here.
 class Zila(models.Model):
@@ -72,8 +73,8 @@ class Union(models.Model):
     union_flid = models.CharField(primary_key=True, editable=False, max_length=11)
     union_geocode = models.CharField(max_length=4, null=False, blank=False)
     union_geocode_old = models.CharField(max_length=2, null=True, blank=True)
-    union_name_en = models.CharField(max_length=30, null=True, blank=True)
-    union_name_bn = models.CharField(max_length=30, null=True, blank=True)
+    union_name_en = models.CharField(max_length=30, null=True, blank=True, verbose_name=_('union name (En)'),)
+    union_name_bn = models.CharField(max_length=30, null=True, blank=True, verbose_name=_('union name (Bn)'),)
     
 
     def __str__(self):

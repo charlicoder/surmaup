@@ -1,0 +1,285 @@
+{% load i18n %}
+
+<nav class="navbar-default navbar-side" role="navigation">
+
+    <div class="sidebar-collapse">
+
+        <ul class="nav" id="main-menu">
+
+            <li>
+                <a href="index.html"><i class="fa fa-dashboard"></i> {% trans "Dashboard" %}</a>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-desktop"></i> ইউনিয়ন পরিষদ ও কমিটি <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="#">{% trans "বর্তমান পরিষদ পরিচিতি" %}</a>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "স্থায়ী কমিটি সমূহ" %} <span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-third-level">
+                            <li>
+                                <a href="#">{% trans "আইন শৃক্ষলা বিষয়ক কমিটি" %}</a>
+                            </li>
+                            
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "নোটিশ বোর্ড" %}</a>
+                    </li>
+                    <li>
+                        <a href="#">{% trans "খবর" %}</a>
+                    </li>
+                    
+                </ul>
+            </li>
+            
+            <li>
+                <a href="#"><i class="fa fa-desktop"></i> {% trans "ইউনিয়ন পরিচিতি" %} <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="#">{% trans "ভৌগলিক তথ্য" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "ওয়ার্ড" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মৌজা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "গ্রাম সমূহ" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "হাট বাজার" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "দর্শনীয় স্থান" %}</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">{% trans "নাগরিকদের তথ্য" %}</a>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "পরিবার / খানা তথ্য" %}</a>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "বীরমুক্তিযোদ্ধাদের তালিকা" %}</a>
+                    </li>
+                    <li>
+                        <a href="#">{% trans "রাষ্টীয় খেতাব প্রাপ্ত ও বিশেষ ব্যক্তিত্ব" %}</a>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "শিক্ষা প্রতিষ্ঠান সমূহ" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "স্কুল ও কলেজের তালিকা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মাদ্রাসা" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "ব্যবসা প্রতিষ্ঠান সমূহ" %} <span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "National Personality (VIP)" %}</a>
+                            </li>
+                            
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "ধর্মীয় প্রতিষ্ঠান সমূহ" %} <span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "মসজিদ" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মন্দির" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মাজার" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "খানকা শরিফ" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "বেসরকারি প্রতিষ্ঠান সমূহ" %} <span class="fa arrow"></span></a>
+
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "এন জি ও " %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "ব্যাংক" %}</a>
+                            </li>
+
+                            <li>
+                                <a href="#">{% trans "ক্লাব" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মুক্তিযোদ্ধা সংসদ" %}</a>
+                            </li>
+                        </ul>
+
+                    </li>              
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-desktop"></i> {% trans "স্থায়ী ও দীর্ঘমেয়াদী সুবিধাভোগী" %} <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="#">{% trans "ভিজিডি উপকারভোগী" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "চলমান (২০১৮-২০২০) " %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "২০১৬-২০১৮ অর্থ বছর" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "২০১৬-২০১৮ অর্থ বছর" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    
+                    <li>
+                        <a href="#">{% trans "খাদ্যবান্ধব উপকারভোগী" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "চলমান তালিকা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "পুর্বের তালিকা" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "মাতৃত্ব ভাতাভোগী" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "চলমান তালিকা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "পুর্বের তালিকা" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "বয়স্ক ভাতাভোগী" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "চলমান তালিকা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মৃত ও বাতিল তালিকা" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "প্রতিবন্ধী ভাতাভোগী" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "চলমান তালিকা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মৃত ও বাতিল তালিকা" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "বিধবা ভাতাভোগী" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "চলমান তালিকা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মৃত ও বাতিল তালিকা" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">{% trans "মুক্তিযোদ্ধা ভাতাভোগী" %} <span class="fa arrow"></span></a>
+                        <ul class="nav nav-third-level">
+                            
+                            <li>
+                                <a href="#">{% trans "চলমান তালিকা" %}</a>
+                            </li>
+                            <li>
+                                <a href="#">{% trans "মৃত ও বাতিল তালিকা" %}</a>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-desktop"></i> {% trans "এককালীন ও স্বল্পমেয়াদী সুবিধাভোগী" %} <span class="fa arrow"></span></a>
+                
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="#">{% trans "ভিজিডি উপকারভোগীর তালিকা" %}</a>
+                    </li>
+                       
+                    
+                </ul>
+            </li>
+
+            <li>
+                <a href="#"><i class="fa fa-desktop"></i> {% trans "পরিষদের সেবা সমূহ" %} <span class="fa arrow"></span></a>
+                <ul class="nav nav-second-level">
+                    <li>
+                        <a href="#">{% trans "VGD Beneficiaries" %}</a>
+                    </li>
+                </ul>
+            </li>
+
+        </ul>
+
+    </div>
+
+</nav>

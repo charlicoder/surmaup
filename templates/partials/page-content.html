@@ -1,16 +1,18 @@
+{% load i18n %}
 <div id="page-wrapper">
     <div class="header"> 
-        <h1 class="page-header">
-            Empty Page <small>Create new page.</small>
-        </h1>
+        <h3 class="page-header">
+            Empty Page <small>Create new page.</small> 
+            {% get_current_language as LANGUAGE_CODE %}
+            <!-- Current language: {{ LANGUAGE_CODE }} -->
+        </h3>
         <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="#">Empty</a></li>
             <li class="active">Data</li>
-        </ol> 
-                            
+        </ol>                
     </div>
     <div id="page-inner"> 
-        
+        sdas
     </div>
 </div>
