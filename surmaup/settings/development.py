@@ -33,7 +33,6 @@ STATICFILES_DIRS = [
 
 ALLOWED_HOSTS = ['*']
 
-STATIC_ROOT = (
-    os.path.join(BASE_DIR, "static")
-)
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+
 print('Loaded development environment.....!')
