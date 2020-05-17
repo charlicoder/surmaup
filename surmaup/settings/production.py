@@ -10,8 +10,8 @@ STATIC_ROOT = (
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "charlicoder_db",
-        "USER": "charlidbuser",
+        "NAME": "surmaup_demo",
+        "USER": "surmaup_user",
         "PASSWORD": "Mamun123",
         "HOST": "localhost",
         "PORT": "5432",
