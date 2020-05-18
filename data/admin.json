@@ -1,0 +1,198 @@
+Loaded development environment.....!
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-05-14T17:26:19.264Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "6090",
+        "object_repr": "6090",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-05-14T17:31:58.849Z",
+        "user": 1,
+        "content_type": 1,
+        "object_id": "6091",
+        "object_repr": "6091",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-05-14T17:33:02.921Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609162",
+        "object_repr": "609162",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-05-14T17:33:36.904Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609108",
+        "object_repr": "609108",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-05-14T17:34:24.666Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609033",
+        "object_repr": "609033",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-05-14T17:34:54.848Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609023",
+        "object_repr": "609023",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-05-14T17:35:22.681Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609029",
+        "object_repr": "609029",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-05-14T17:35:51.392Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609089",
+        "object_repr": "609089",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2020-05-14T17:36:40.315Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609047",
+        "object_repr": "609047",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2020-05-14T17:50:06.669Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609027",
+        "object_repr": "609027",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2020-05-14T17:50:38.431Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609050",
+        "object_repr": "609050",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2020-05-14T17:51:02.976Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609086",
+        "object_repr": "609086",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2020-05-14T17:51:24.596Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609092",
+        "object_repr": "609092",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2020-05-14T17:53:28.222Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609032",
+        "object_repr": "609032",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2020-05-14T17:54:29.370Z",
+        "user": 1,
+        "content_type": 2,
+        "object_id": "609018",
+        "object_repr": "609018",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]

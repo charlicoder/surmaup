@@ -1,0 +1,772 @@
+[{
+        "model": "lgd.zila",
+        "pk": "6090",
+        "fields": {
+            "zila_geocode": "90",
+            "division_geocode": "60",
+            "zila_name_en": "Sunamganj",
+            "zila_name_bn": "\u09b8\u09c1\u09a8\u09be\u09ae\u0997\u099e\u09cd\u099c"
+        }
+    },
+    {
+        "model": "lgd.zila",
+        "pk": "6091",
+        "fields": {
+            "zila_geocode": "91",
+            "division_geocode": "60",
+            "zila_name_en": "Sylhet",
+            "zila_name_bn": "\u09b8\u09bf\u09b2\u09c7\u099f"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090018",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "018",
+            "upazila_name_en": "Bishwambarpur",
+            "upazila_name_bn": "\u09ac\u09bf\u09b6\u09cd\u09ac\u09ae\u09cd\u09ad\u09b0\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090023",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "023",
+            "upazila_name_en": "Chhatak",
+            "upazila_name_bn": "\u099b\u09be\u09a4\u0995"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090027",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "027",
+            "upazila_name_en": "Dakshin Sunamganj",
+            "upazila_name_bn": "\u09a6\u0995\u09cd\u09b7\u09bf\u09a8 \u09b8\u09c1\u09a8\u09be\u09ae\u0997\u099e\u09cd\u099c"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090029",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "029",
+            "upazila_name_en": "Derai",
+            "upazila_name_bn": "\u09a6\u09bf\u09b0\u09be\u0987"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090032",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "032",
+            "upazila_name_en": "Dharampasha",
+            "upazila_name_bn": "\u09a7\u09b0\u09cd\u09ae\u09aa\u09be\u09b6\u09be"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090033",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "033",
+            "upazila_name_en": "Dowarabazar",
+            "upazila_name_bn": "\u09a6\u09cb\u09df\u09be\u09b0\u09be\u09ac\u09be\u099c\u09be\u09b0"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090047",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "047",
+            "upazila_name_en": "Jagannathpur",
+            "upazila_name_bn": "\u099c\u0997\u09a8\u09cd\u09a8\u09be\u09a5\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090050",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "050",
+            "upazila_name_en": "Jamalganj",
+            "upazila_name_bn": "\u099c\u09be\u09ae\u09be\u09b2\u0997\u099e\u09cd\u099c"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090086",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "086",
+            "upazila_name_en": "Sulla",
+            "upazila_name_bn": "\u09b6\u09be\u09b2\u09cd\u09b2\u09be"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090089",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "089",
+            "upazila_name_en": "Sunamganj Sadar",
+            "upazila_name_bn": "\u09b8\u09c1\u09a8\u09be\u09ae\u0997\u099e\u09cd\u099c \u09b8\u09a6\u09b0"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6090092",
+        "fields": {
+            "zila": "6090",
+            "upazila_geocode": "092",
+            "upazila_name_en": "Tahirpur",
+            "upazila_name_bn": "\u09a4\u09be\u09b9\u09bf\u09b0\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6091008",
+        "fields": {
+            "zila": "6091",
+            "upazila_geocode": "008",
+            "upazila_name_en": "Balaganj",
+            "upazila_name_bn": "\u09ac\u09be\u09b2\u09be\u0997\u099e\u09cd\u099c"
+        }
+    },
+    {
+        "model": "lgd.upazila",
+        "pk": "6091062",
+        "fields": {
+            "zila": "6091",
+            "upazila_geocode": "062",
+            "upazila_name_en": "Sylhet Sadar",
+            "upazila_name_bn": "\u09b8\u09bf\u09b2\u09c7\u099f \u09b8\u09a6\u09b0"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090023714",
+        "fields": {
+            "upazila": "6090023",
+            "union_geocode": "714",
+            "union_geocode_old": "92",
+            "union_name_en": "SINGCHAPAIR",
+            "union_name_bn": "\u09b8\u09bf\u0982\u099a\u09be\u09aa\u0987\u09dc"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090023781",
+        "fields": {
+            "upazila": "6090023",
+            "union_geocode": "781",
+            "union_geocode_old": "94",
+            "union_name_en": "UTTAR KHURMA",
+            "union_name_bn": "\u0989\u09a4\u09cd\u09a4\u09b0 \u0996\u09c1\u09b0\u09ae\u09be"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090032609",
+        "fields": {
+            "upazila": "6090032",
+            "union_geocode": "609",
+            "union_geocode_old": "66",
+            "union_name_en": "PAIKURATI",
+            "union_name_bn": "\u09aa\u09be\u0987\u0995\u09c1\u09b0\u09be\u099f\u09bf"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090032710",
+        "fields": {
+            "upazila": "6090032",
+            "union_geocode": "710",
+            "union_geocode_old": "76",
+            "union_name_en": "SELBARASH",
+            "union_name_bn": "\u09b8\u09c7\u09b2\u09ac\u09b0\u09b7"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033142",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "142",
+            "union_geocode_old": "86",
+            "union_name_en": "BANGLABAZAR",
+            "union_name_bn": "\u09ac\u09be\u0982\u09b2\u09be\u09ac\u09be\u099c\u09be\u09b0"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033151",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "151",
+            "union_geocode_old": "21",
+            "union_name_en": "BOGLA BAZAR",
+            "union_name_bn": "\u09ac\u09cb\u0997\u09b2\u09be \u09ac\u09be\u099c\u09be\u09b0"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033210",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "210",
+            "union_geocode_old": "32",
+            "union_name_en": "DOHALIA",
+            "union_name_bn": "\u09a6\u09cb\u09b9\u09be\u09b2\u09bf\u09df\u09be"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033219",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "219",
+            "union_geocode_old": "27",
+            "union_name_en": "DOWARABAZAR",
+            "union_name_bn": "\u09a6\u09cb\u09df\u09be\u09b0\u09be\u09ac\u09be\u099c\u09be\u09b0"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033476",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "476",
+            "union_geocode_old": "61",
+            "union_name_en": "LAKKHIPUR",
+            "union_name_bn": "\u09b2\u0995\u09cd\u09b7\u09cd\u09ae\u09c0\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033510",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "510",
+            "union_geocode_old": "67",
+            "union_name_en": "MANNARGAON",
+            "union_name_bn": "\u09ae\u09be\u09a8\u09cd\u09a8\u09be\u09b0\u0997\u09be\u0993"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033544",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "544",
+            "union_geocode_old": "92",
+            "union_name_en": "NARSINGPUR",
+            "union_name_bn": "\u09a8\u09b0\u09b8\u09bf\u0982\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033611",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "611",
+            "union_geocode_old": "78",
+            "union_name_en": "PANDARGAON",
+            "union_name_bn": "\u09aa\u09be\u09a8\u09cd\u09a1\u09be\u09b0\u0997\u09be\u0993"
+        }
+    },
+    {
+        "model": "lgd.union",
+        "pk": "6090033711",
+        "fields": {
+            "upazila": "6090033",
+            "union_geocode": "711",
+            "union_geocode_old": "81",
+            "union_name_en": "SURMA",
+            "union_name_bn": "\u09b8\u09c1\u09b0\u09ae\u09be"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033151033",
+        "fields": {
+            "union": "6090033151",
+            "jl_no": "15",
+            "mouja_geocode": "033",
+            "mouja_geocode_old": "014",
+            "mouja_name_en": "ALAMKHALI",
+            "mouja_name_bn": "\u0986\u09b2\u09ae\u0996\u09be\u09b2\u09c0",
+            "total_area_of_land": "987.70"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711077",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "82",
+            "mouja_geocode": "077",
+            "mouja_geocode_old": "085",
+            "mouja_name_en": "BAITAKHALI",
+            "mouja_name_bn": "\u09ac\u09c8\u099f\u09be\u0996\u09be\u09b2\u09c0",
+            "total_area_of_land": "1252.46"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711080",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "78",
+            "mouja_geocode": "080",
+            "mouja_geocode_old": "106",
+            "mouja_name_en": "BALIJURI",
+            "mouja_name_bn": "\u09ac\u09be\u09b2\u09bf\u099c\u09c1\u09b0\u09c0",
+            "total_area_of_land": "2158.59"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711092",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "123",
+            "mouja_geocode": "092",
+            "mouja_geocode_old": "170",
+            "mouja_name_en": "BHUJNA",
+            "mouja_name_bn": "\u09ad\u09c1\u099c\u09a8\u09be",
+            "total_area_of_land": "1710.24"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711386",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "124",
+            "mouja_geocode": "386",
+            "mouja_geocode_old": "440",
+            "mouja_name_en": "JINARI",
+            "mouja_name_bn": "\u099c\u09bf\u09a8\u09be\u09b0\u09c0",
+            "total_area_of_land": "477.15"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711389",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "74",
+            "mouja_geocode": "389",
+            "mouja_geocode_old": "991",
+            "mouja_name_en": "JOANERGAON",
+            "mouja_name_bn": "\u099c\u09cb\u09df\u09be\u09a8\u09c7\u09b0\u0997\u09be\u0993",
+            "total_area_of_land": "73.03"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711499",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "077",
+            "mouja_geocode": "499",
+            "mouja_geocode_old": "561",
+            "mouja_name_en": "MAHABBATPUR",
+            "mouja_name_bn": "\u09ae\u09b9\u09ac\u09cd\u09ac\u09a4\u09aa\u09c1\u09b0",
+            "total_area_of_land": "191.96"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711503",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "76",
+            "mouja_geocode": "503",
+            "mouja_geocode_old": "589",
+            "mouja_name_en": "MARPAI",
+            "mouja_name_bn": "\u09ae\u09be\u09b0\u09aa\u0987",
+            "total_area_of_land": "76.24"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711509",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "75",
+            "mouja_geocode": "509",
+            "mouja_geocode_old": "618",
+            "mouja_name_en": "MOHAMMADPUR",
+            "mouja_name_bn": "\u09ae\u09cb\u09b9\u09be\u09ae\u09cd\u09ae\u09a6\u09aa\u09c1\u09b0",
+            "total_area_of_land": "704.98"
+        }
+    },
+    {
+        "model": "lgd.mouja",
+        "pk": "6090033711816",
+        "fields": {
+            "union": "6090033711",
+            "jl_no": "83",
+            "mouja_geocode": "816",
+            "mouja_geocode_old": "980",
+            "mouja_name_en": "UTTAR NURPUR",
+            "mouja_name_bn": "\u0989\u09a4\u09cd\u09a4\u09b0 \u09a8\u09c1\u09b0\u09aa\u09c1\u09b0",
+            "total_area_of_land": "447.22"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711077010",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711077",
+            "village_geocode": "010",
+            "village_geocode_old": "003",
+            "village_name_en": "ALIPUR",
+            "village_name_bn": "\u0986\u09b2\u09c0\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711077021",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711077",
+            "village_geocode": "021",
+            "village_geocode_old": "001",
+            "village_name_en": "BAITAKHAI",
+            "village_name_bn": "\u09ac\u09c8\u099f\u09be\u0996\u09be\u0987"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711077082",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711077",
+            "village_geocode": "082",
+            "village_geocode_old": "002",
+            "village_name_en": "HASAN BAHAR",
+            "village_name_bn": "\u09b9\u09be\u09b8\u09be\u09a8 \u09ac\u09be\u09b9\u09be\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711077133",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711077",
+            "village_geocode": "133",
+            "village_geocode_old": "005",
+            "village_name_en": "MIRPUR",
+            "village_name_bn": "\u09ae\u09bf\u09b0\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711077264",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711503",
+            "village_geocode": "263",
+            "village_geocode_old": "04",
+            "village_name_en": "ZIAPUR",
+            "village_name_bn": "\u099c\u09bf\u09df\u09be\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080010",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "010",
+            "village_geocode_old": "008",
+            "village_name_en": "AJABPUR",
+            "village_name_bn": "\u0986\u099c\u09ac\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "609003371108005",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "05",
+            "village_geocode_old": "210",
+            "village_name_en": "TILAGAON",
+            "village_name_bn": "\u099f\u09bf\u09b2\u09be\u0997\u09be\u0993"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080071",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "071",
+            "village_geocode_old": "06",
+            "village_name_en": "GIRISHNAGAR",
+            "village_name_bn": "\u0997\u09bf\u09b0\u09bf\u09b6\u09a8\u0997\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080092",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "092",
+            "village_geocode_old": "04",
+            "village_name_en": "ISLAMPUR",
+            "village_name_bn": "\u0987\u09b8\u09b2\u09be\u09ae\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080113",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "113",
+            "village_geocode_old": "09",
+            "village_name_en": "KAOAGAR",
+            "village_name_bn": "\u0995\u09be\u0993\u09df\u09be\u0997\u09dc"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080114",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "114",
+            "village_geocode_old": "03",
+            "village_name_en": "KHAGURA",
+            "village_name_bn": "\u0996\u09be\u0997\u09c1\u09dc\u09be"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080115",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "115",
+            "village_geocode_old": "11",
+            "village_name_en": "KHAIYAJURI",
+            "village_name_bn": "\u0996\u09c8\u09df\u09be\u099c\u09c1\u09b0\u09c0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080186",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "186",
+            "village_geocode_old": "07",
+            "village_name_en": "RAJNAGAR",
+            "village_name_bn": "\u09b0\u09be\u099c\u09a8\u0997\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080197",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "197",
+            "village_geocode_old": "02",
+            "village_name_en": "SHIMULTALA",
+            "village_name_bn": "\u09b6\u09bf\u09ae\u09c1\u09b2\u09a4\u09b2\u09be"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711080209",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711080",
+            "village_geocode": "209",
+            "village_geocode_old": "01",
+            "village_name_en": "TENGRATILA",
+            "village_name_bn": "\u099f\u09c7\u0982\u09b0\u09be\u099f\u09bf\u09b2\u09be"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711092020",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711092",
+            "village_geocode": "020",
+            "village_geocode_old": "03",
+            "village_name_en": "BHUJNA",
+            "village_name_bn": "\u09ad\u09c1\u099c\u09a8\u09be"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711092111",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711092",
+            "village_geocode": "111",
+            "village_geocode_old": "01",
+            "village_name_en": "KADAMTALI",
+            "village_name_bn": "\u0995\u09a6\u09ae\u09a4\u09b2\u09bf"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711092112",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711092",
+            "village_geocode": "112",
+            "village_geocode_old": "02",
+            "village_name_en": "KALIKAPUR",
+            "village_name_bn": "\u0995\u09be\u09b2\u09bf\u0995\u09be\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711092153",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711092",
+            "village_geocode": "153",
+            "village_geocode_old": "05",
+            "village_name_en": "OMARPUR",
+            "village_name_bn": "\u0993\u09ae\u09b0\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711092194",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711092",
+            "village_geocode": "194",
+            "village_geocode_old": "04",
+            "village_name_en": "SHARIFPUR",
+            "village_name_bn": "\u09b6\u09b0\u09c0\u09ab\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711386190",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711386",
+            "village_geocode": "190",
+            "village_geocode_old": "01",
+            "village_name_en": "SHANTIPUR",
+            "village_name_bn": "\u09b6\u09be\u09a8\u09cd\u09a4\u09bf\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711499130",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711499",
+            "village_geocode": "130",
+            "village_geocode_old": "01",
+            "village_name_en": "MAHABBATPUR",
+            "village_name_bn": "\u09ae\u09b9\u09ac\u09cd\u09ac\u09a4\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711503130",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711503",
+            "village_geocode": "130",
+            "village_geocode_old": "01",
+            "village_name_en": "MARPASHI",
+            "village_name_bn": "\u09ae\u09be\u09b0\u09aa\u09b6\u09bf"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711509071",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711509",
+            "village_geocode": "071",
+            "village_geocode_old": "01",
+            "village_name_en": "GUJAURA",
+            "village_name_bn": "\u0997\u09c1\u099c\u09be\u0989\u09dc\u09be"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711509132",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711509",
+            "village_geocode": "132",
+            "village_geocode_old": "03",
+            "village_name_en": "MAMANPUR",
+            "village_name_bn": "\u09ae\u09be\u09ae\u09c1\u09a8\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "609003371150920",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711509",
+            "village_geocode": "20",
+            "village_geocode_old": "02",
+            "village_name_en": "BARKATNAGAR",
+            "village_name_bn": "\u09ac\u09b0\u0995\u09a4\u09a8\u0997\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711816140",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711816",
+            "village_geocode": "140",
+            "village_geocode_old": "03",
+            "village_name_en": "NANDIGRAM",
+            "village_name_bn": "\u09a8\u09a8\u09cd\u09a6\u09c0\u0997\u09cd\u09b0\u09be\u09ae"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711816141",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711816",
+            "village_geocode": "141",
+            "village_geocode_old": "02",
+            "village_name_en": "NURPUR",
+            "village_name_bn": "\u09a8\u09c2\u09b0\u09aa\u09c1\u09b0"
+        }
+    },
+    {
+        "model": "lgd.village",
+        "pk": "6090033711816192",
+        "fields": {
+            "union": "6090033711",
+            "moujav": "6090033711816",
+            "village_geocode": "192",
+            "village_geocode_old": "01",
+            "village_name_en": "SONAPUR",
+            "village_name_bn": "\u09b8\u09cb\u09a8\u09be\u09aa\u09c1\u09b0"
+        }
+    }
+]
