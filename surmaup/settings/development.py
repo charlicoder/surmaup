@@ -33,4 +33,4 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
 
-print(STATICFILES_DIRS)
+# print(STATICFILES_DIRS)
