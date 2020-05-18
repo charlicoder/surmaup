@@ -20,4 +20,4 @@ DATABASES = {
 }
 
 
-print('Loaded production environment.....!'+ BASE_DIR)
+print('Loaded production environment.....!'+ STATIC_ROOT)
