@@ -1,6 +1,6 @@
 env*
 venv*
-data
+
 .env
 surmaup/settings/local.py
 surmaup/settings/.env
@@ -9,4 +9,3 @@ requirements/local.txt
 *.pyc
 **/.DS_Store
 **/__pycache__
-
