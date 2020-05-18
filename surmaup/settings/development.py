@@ -21,8 +21,8 @@ print('At development.py ' + BASE_DIR)
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
-        "NAME": "surmaup_demo",
-        "USER": "surmaup_user",
+        "NAME": "surmaup_db",
+        "USER": "postgres",
         "PASSWORD": "Mamun123",
         "HOST": "localhost",
         "PORT": "5432",
