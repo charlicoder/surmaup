@@ -22,7 +22,7 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "surmaup_demo",
-        "USER": "postgres",
+        "USER": "surmaup_user",
         "PASSWORD": "Mamun123",
         "HOST": "localhost",
         "PORT": "5432",
