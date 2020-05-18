@@ -2,8 +2,9 @@ from .base import *
 
 DEBUG = True
 
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+ALLOWED_HOSTS = ['*']
 
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 # DATABASES = {
 #     "default": {
@@ -20,7 +21,7 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql_psycopg2",
         "NAME": "surmaup_demo",
-        "USER": "surmaup_user",
+        "USER": "postgres",
         "PASSWORD": "Mamun123",
         "HOST": "localhost",
         "PORT": "5432",
@@ -28,11 +29,7 @@ DATABASES = {
 }
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "staticfiles"),
+    os.path.join(BASE_DIR, "static"),
 ]
 
-ALLOWED_HOSTS = ['*']
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
-
-print('Loaded development environment.....!')
+print(STATICFILES_DIRS)

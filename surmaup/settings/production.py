@@ -1,16 +1,11 @@
 from .base import *
 
-import os
-from django.utils.translation import ugettext_lazy as _
-# Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-BASE_DIR = os.path.dirname(os.path.dirname(
-    os.path.dirname(os.path.abspath(__file__))))
+# import os
+# from django.utils.translation import ugettext_lazy as _
 
-DEBUG = True
-
+DEBUG = False
 ALLOWED_HOSTS = ['*']
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
+STATIC_ROOT = os.path.join(BASE_DIR, 'surmaup_static')
 
 DATABASES = {
     "default": {
@@ -24,4 +19,4 @@ DATABASES = {
 }
 
 
-print('Loaded production environment.....!')
+print('Loaded production environment.....!'+ BASE_DIR)
