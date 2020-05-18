@@ -16,6 +16,7 @@ ALLOWED_HOSTS = ['*']
 #         "PORT": "5432",
 #     }
 # }
+print('At development.py ' + BASE_DIR)
 
 DATABASES = {
     "default": {

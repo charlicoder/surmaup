@@ -2,7 +2,7 @@ import os
 from django.utils.translation import ugettext_lazy as _
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-print('At base.py ' + BASE_DIR)
+
 
 SECRET_KEY = '-%3g7jk*q37=8=@!_cptx46r_jnmxc7k4=^z2o*lr(erut^a88'
 
