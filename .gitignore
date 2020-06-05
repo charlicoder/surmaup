@@ -9,3 +9,5 @@ requirements/local.txt
 *.pyc
 **/.DS_Store
 **/__pycache__
+
+surmaup_static

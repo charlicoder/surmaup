@@ -18,6 +18,3 @@ DATABASES = {
         "PORT": "5432",
     }
 }
-
-
-print('Loaded production environment.....!'+ STATIC_ROOT)
