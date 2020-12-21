@@ -11,3 +11,4 @@ requirements/local.txt
 **/__pycache__
 
 surmaup_static
+staticfiles
